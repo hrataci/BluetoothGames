@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <FrameLayout
+        android:id="@+id/sample_content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:gravity="center"
+          android:background="@color/colorPrimary">
+          <ImageButton
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:src="@drawable/tictactoe"
+              android:onClick="ticTacToeOnClick"
+              android:background="@color/colorPrimary"/>
+          <ImageButton
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:padding="25dp"
+              android:src="@drawable/naval_battle"
+              android:background="@color/colorPrimary"
+              android:onClick="navalOnClick"/>
+         <!-- <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/tictactoe"
+              android:theme="@style/MyButton"
+              android:onClick="ticTacToeOnClick"
+              />
+          <Button
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/naval"
+              android:theme="@style/MyButton"
+              android:onClick="navalOnClick"/>-->
+      </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
+
+
+
+
